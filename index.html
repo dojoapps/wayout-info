@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <style type="text/css">
+            body {
+                background: #1E1E1E;
+                font-family: "Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+                color: #C8C8C8;
+                font-size: 15px;
+            }
+
+            .step {
+                width: 500px;
+            }
+
+            h2 {
+                font-size: 2.4em;
+                border-bottom: 2px solid #007ACC;
+            }
+
+            .text {
+                font-size: 1.3em;
+            }
+
+            #intro {
+                width: 450px;
+                height: 250px;
+            }
+            #como {
+                width: 1500px;
+            }
+
+            #como img {
+                vertical-align: top;
+            }
+            .conheca {
+                display: block;
+                color: #C8C8C8;
+                font-size: 1.5em;
+                font-weight: normal;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        </style>
+        <script src="scripts/vendor/modernizr.min.js"></script>
+    </head>
+    <body>
+        <div id="impress">
+            <div id="intro" class="step slide" data-x="-1000" data-y="-500" data-scale="1">
+                <h2>Miyagi</h2>
+
+                <p class="text">Soluçäo de pagamento mobile para casas noturnas</p>
+            </div>
+
+            <div class="step" data-x="0" data-y="-2000">
+                <h2>Problema</h2>
+
+                <p class="text">Filas para o pagamento de contas em casas noturnas são incômodas e fazem as pessoas irem embora mais cedo.</p>
+            </div>
+
+            <div id="solucao" class="step" data-x="3000" data-y="200" data-z="50" data-scale="3">
+                <h2>Solução</h2>
+
+                <p class="text">Usando o Miyagi você tem acesso em tempo real à sua comanda.</p>
+                <p class="text">Quando quiser ir embora você pode pagar diretamente do seu celular e se dirigir para a saída sem passar pelo caixa.</p>
+            </div>
+
+             <div id="como" class="step" data-x="-2000" data-y="5000" data-z="600">
+                <h2>Como funciona</h2>
+
+                <img src="imgs/tutorial-0.png">
+                <img src="imgs/tutorial-1.png">
+                <img src="imgs/tutorial-2.png">
+                <img src="imgs/tutorial-3.png">
+            </div>
+
+            <div class="step" data-x="-500" data-y="600" data-rotate="90">
+                <h2>Mercado</h2>
+
+                <p class="text">O aplicativo tem que ser comercializado em duas frentes:</p>
+                <ul>
+                    <li>Integração com casas noturnas</li>
+                    <li>Adoção por parte dos usuários</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="-1000" data-y="2500" data-z="150">
+                <h2>Concorrentes</h2>
+
+                <p class="text"><img src="http://s3-sa-east-1.amazonaws.com/mobipass-website-static-files/images/logo.png">&nbsp;&nbsp;<img src="http://pagpop.com.br/site/img/pagpop.png" ></p>
+            </div>
+
+            <div class="step" data-x="4000" data-y="3000" data-z="-500" data-rotate-x="-40" data-rotate-y="10">
+                <h2>Monetização</h2>
+
+                <ul>
+                    <li>Cobrar taxa por transação dos estabelecimentos</li>
+                    <li>Cobrar taxa por transação do cliente</li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="4800" data-y="4500" data-z="50" data-rotate="90">
+                <h2>Obrigado!</h2>
+
+                <a href="http://miyagi.apphb.com" class="conheca">http://miyagi.apphb.com</a>
+
+                <p style="text-align: center;">
+                    <img src="http://qr.kaywa.com/?s=8&d=http%3A%2F%2Fmiyagi.apphb.com" alt="QRCode" width="400"/>
+                </p>
+                <p style="text-align: center;">
+                    <img src="http://dojoapps.com.br/img/logo%20dojo.png" alt="DojoApps">
+                </p>
+            </div>
+        </div>
+        <script src="scripts/vendor/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
